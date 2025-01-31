@@ -1,0 +1,45 @@
+html {
+    /* --background: 0 0% 100%;
+    --foreground: 321.82 31.43% 6.86%;
+    --primary: 325.79 69.93% 70%; */
+
+    --background: 235.71 21.21% 12.94%;
+    --foreground: 0 0% 100%;
+    --primary: 260.26 50.33% 70%;
+}
+
+body {
+    color: hsl(var(--foreground));
+    background: hsl(var(--background));
+
+    min-height: 100vh;
+    line-height: 1.6;
+    font-family:
+        Inter,
+        -apple-system,
+        BlinkMacSystemFont,
+        'Segoe UI',
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        'Fira Sans',
+        'Droid Sans',
+        'Helvetica Neue',
+        sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+    width: 90vw;
+    margin: auto;
+}
+h1, h2, .center {
+    text-align: center;
+}
+
+a {
+    color: hsl(var(--foreground));
+}
